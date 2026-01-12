@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mana JNTUH Results</string>
+    <string name="title_activity_main">Mana JNTUH Results</string>
+    <string name="package_name">com.manajntuhresults.mobile</string>
+    <string name="custom_url_scheme">com.manajntuhresults.mobile</string>
+    <string name="exit_dialog_title">Exit App</string>
+    <string name="exit_dialog_message">Are you sure you want to exit?</string>
+    <string name="exit_dialog_yes">Yes, Exit</string>
+    <string name="exit_dialog_no">Cancel</string>
+    <string name="shortcut_academic_result">Check Result</string>
+    <string name="shortcut_academic_result_long">Check Academic Result</string>
+    <string name="shortcut_saved_results">Saved Results</string>
+    <string name="shortcut_saved_results_long">View Saved Results</string>
+    <string name="shortcut_notifications">Notifications</string>
+    <string name="shortcut_notifications_long">View JNTUH Notifications</string>
+</resources>

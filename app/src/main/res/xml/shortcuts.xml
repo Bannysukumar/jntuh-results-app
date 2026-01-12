@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shortcut to check Academic Result -->
+    <shortcut
+        android:shortcutId="academic_result"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_academic_result"
+        android:shortcutLongLabel="@string/shortcut_academic_result_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.manajntuhresults.mobile"
+            android:targetClass="com.manajntuhresults.mobile.MainActivity"
+            android:data="https://com.manajntuhresults.mobile/academicresult" />
+    </shortcut>
+    
+    <!-- Shortcut to view Saved Results -->
+    <shortcut
+        android:shortcutId="saved_results"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_saved_results"
+        android:shortcutLongLabel="@string/shortcut_saved_results_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.manajntuhresults.mobile"
+            android:targetClass="com.manajntuhresults.mobile.MainActivity"
+            android:data="https://com.manajntuhresults.mobile/saved-results" />
+    </shortcut>
+    
+    <!-- Shortcut to view Notifications -->
+    <shortcut
+        android:shortcutId="notifications"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_notifications"
+        android:shortcutLongLabel="@string/shortcut_notifications_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.manajntuhresults.mobile"
+            android:targetClass="com.manajntuhresults.mobile.MainActivity"
+            android:data="https://com.manajntuhresults.mobile/notifications" />
+    </shortcut>
+</shortcuts>
+
