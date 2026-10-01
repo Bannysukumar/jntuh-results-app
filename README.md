@@ -1,41 +1,64 @@
-<!-- readme-seo: bannysukumar -->
+# Jntuh Results App
 
-# JNTUH Results App
+Jntuh Results App is a HTML repository.
 
-**JNTUH Results App** is an open-source university exam-results portal. The code is written mainly in HTML and maintained by [Banny Sukumar](https://github.com/Bannysukumar), a blockchain and full-stack developer.
+[![License](https://img.shields.io/github/license/Bannysukumar/jntuh-results-app)](https://github.com/Bannysukumar/jntuh-results-app/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/jntuh-results-app)](https://github.com/Bannysukumar/jntuh-results-app/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/jntuh-results-app)](https://github.com/Bannysukumar/jntuh-results-app/commits/main)
 
-This repository is public so developers can read the source, reuse it under the MIT License, and send improvements.
+## Overview
 
-## About this project
+Jntuh Results App is a HTML repository.
 
-JNTUH Results App lives at [`github.com/Bannysukumar/jntuh-results-app`](https://github.com/Bannysukumar/jntuh-results-app). Use it as a starting point for a university exam-results portal, or study how the HTML parts fit together.
 
-## Tech stack
+What is actually in the repository: `.gradle/`, `app/`, `build/`, `capacitor-cordova-android-plugins/`, `gradle/`. GitHub reports the primary language as HTML.
 
-- Primary language: **HTML**
-- License: **MIT**
-- Maintainer: [Banny Sukumar](https://github.com/Bannysukumar)
+## Tech Stack
 
-## Getting started
+| Technology | Where it shows up |
+|---|---|
+| Next.js | React framework |
+
+## Project Architecture
+
+Android application under app/, built with Gradle.
+
+## Project Structure
+
+```text
+jntuh-results-app/
+├── .gradle/
+├── app/
+├── build/
+├── capacitor-cordova-android-plugins/
+├── build.gradle
+├── capacitor.settings.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+├── settings.gradle
+├── variables.gradle
+```
+
+## Getting Started
 
 ```bash
 git clone https://github.com/Bannysukumar/jntuh-results-app.git
 cd jntuh-results-app
+# Open the project in Android Studio, or run the Gradle wrapper from the repository root.
 ```
-
-Open the project in your editor. Install dependencies only if this repo already includes a manifest such as `package.json`, `requirements.txt`, or a `.csproj` file.
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar.
+Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
+
+[Banny Sukumar](https://github.com/Bannysukumar)
 
 - GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
 - Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
 - LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
-- ORCID: [0009-0007-9766-6579](https://orcid.org/0009-0007-9766-6579)
