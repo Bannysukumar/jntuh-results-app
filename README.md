@@ -1,51 +1,62 @@
-# Jntuh Results App
+<!-- readme-seo: bannysukumar-professional-v4 -->
 
-Jntuh Results App is a HTML repository.
+# JNTUH Results
 
-[![License](https://img.shields.io/github/license/Bannysukumar/jntuh-results-app)](https://github.com/Bannysukumar/jntuh-results-app/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/jntuh-results-app)](https://github.com/Bannysukumar/jntuh-results-app/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/jntuh-results-app)](https://github.com/Bannysukumar/jntuh-results-app/commits/main)
+JNTUH Results is a Capacitor Android project. `settings.gradle` includes the `app` module and `capacitor-cordova-android-plugins`. The packaged site under `app/src/main/assets/public` has pages for academic results, class results, backlog reports, and a credit checker.
 
 ## Overview
 
-Jntuh Results App is a HTML repository.
+The web assets are static HTML. Result routes include `academicresult`, `academicallresult`, `classresult`, `backlogreport`, and `creditchecker`, each with a `result` page. Admin assets include dashboard, users, feedback, health, and settings. This is the Android shell for that site, not the separate `jntuh-results-website` repository.
 
+## Features
 
-What is actually in the repository: `.gradle/`, `app/`, `build/`, `capacitor-cordova-android-plugins/`, `gradle/`. GitHub reports the primary language as HTML.
+Paths under `app/src/main/assets/public`:
+
+- Academic result and all-result pages
+- Class result and backlog report
+- Credit checker
+- Admin dashboard, users, feedback, health, and settings
+- FAQ and feedback pages
 
 ## Tech Stack
 
 | Technology | Where it shows up |
 |---|---|
-| Next.js | React framework |
+| HTML | `app/src/main/assets/public` |
+| Capacitor | `capacitor.settings.gradle` and `settings.gradle` |
+| Android Gradle | `build.gradle`, `gradlew` |
 
-## Project Architecture
+## Architecture
 
-Android application under app/, built with Gradle.
+Android Capacitor shell → static HTML in `app/src/main/assets/public`.
 
 ## Project Structure
 
 ```text
 jntuh-results-app/
-├── .gradle/
-├── app/
-├── build/
+├── app/src/main/assets/public/
 ├── capacitor-cordova-android-plugins/
-├── build.gradle
-├── capacitor.settings.gradle
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── local.properties
 ├── settings.gradle
-├── variables.gradle
+├── capacitor.settings.gradle
+└── build.gradle
 ```
 
-## Getting Started
+## Prerequisites
+
+- Android Studio, or a JDK plus the Gradle wrapper
+
+## Installation
 
 ```bash
 git clone https://github.com/Bannysukumar/jntuh-results-app.git
 cd jntuh-results-app
-# Open the project in Android Studio, or run the Gradle wrapper from the repository root.
 ```
+
+Open the Android project in Android Studio.
+
+## Usage
+
+Run the `app` module. Result screens are the HTML files under `academicresult`, `classresult`, `backlogreport`, and `creditchecker`.
 
 ## Contributing
 
@@ -57,8 +68,6 @@ Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
 
-[Banny Sukumar](https://github.com/Bannysukumar)
+Banny Sukumar
 
-- GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
-- Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
-- LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
+GitHub: https://github.com/Bannysukumar
